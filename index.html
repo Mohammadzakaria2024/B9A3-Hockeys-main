@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<style> 
+*{
+  font-family: Manrope;
+}
+
+
+</style>>
+ 
+<script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<header class="contanier mx-auto w-[1170px] h-[100px] alin-center m-auto rounded-box">
+    <div class="navbar bg-base-100  w-full m-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li class="text-orange-500"><a>Home</a></li>
+
+              <li><a>Abut</a></li>
+              <li><a>Pages</a></li>
+
+              <li><a>Blog</a></li>
+              <li><a>Contoct</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl font-bold">Hockey<spam class="text-orange-500">’</spam>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-orange-500"><a>Home</a></li>
+           
+            <li><a>Abut</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contoct</a></li>
+          </ul>
+        </div>
+        
+        <div class="navbar-end">
+            <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+            </button>
+          <a class="btn bg-orange-500 text-white">Get Ticket</a>
+        </div>
+      </div>
+
+</header>
+
+<min>
+  <section class="contanier  mx-auto lg:px-24 px-8 w-[1170px] h-[550px] mt-6">
+    <div class="carousel shadow " >
+      <div id="slide1" class="carousel-item relative  w-full">
+        <img src="Images/1.png" class=" w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative  w-full">
+        <img src="Images/2.png" class=" w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide3" class="carousel-item relative  w-full">
+        <img src="Images/3.png" class=" w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide4" class="carousel-item relative  w-full">
+        <img src="Images/4.png" class=" w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    <div class="contanier flex justify-end alin-center shadow shadow">
+    <div class="contanier h-24 w-1/3 mx-auto bg-orange-500 lg:-translate-y-36 rounded-box absolute justify-end mr-12 text-center drop-shadow-lg" >
+      <h1 class="text-white text-2xl font-bold m-2">Meet all the heroes from the field</h1>
+      <p class="text-white text-sm m-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    </div>
+  </section>
+   
+  <div class="contanier bg-red-50 mx-auto w-[1170px] h-[200px] mt-6 alin-center m-auto rounded-box">
+    <h1 class="text-center text-4xl mt-24 font-bold pt-12">Professional Hockeys Club</h1>
+    <p class="text-center p-4 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+  </div>
+    <div class=" inline-block md:flex justify-self-center  mx-auto px-24 pt-8 w-[1170px] h-[300px] mt-12 bg-orange-100 rounded-box">
+
+      <div>
+        <div class="radial-progress  font-bold text-2xl  bg-red-500 p-4 text-primary-content border-8 border-green-500 m-auto" style="--value:87;" role="progressbar">87%</div>
+        <h1 class="text-center  mt-2 font-bold">Prayer Facility</h1>
+    <p class="text-center text-sm">Amet consectetur. Condimentum dignissim adipiscing . </p>
+      </div>
+      <div class="contanier ">
+        <div class="radial-progress font-bold text-2xl bg-green-500 p-4 text-primary-content border-8 border-red-500" style="--value:87;" role="progressbar">95%</div>
+        <h1 class="text-center  mt-2 font-bold">Experienced Coach</h1>
+    <p class="text-center text-sm">Amet consectetur. Condimentum dignissim adipiscing . </p>
+      </div>
+      <div class="contanier ">
+        <div class="radial-progress font-bold text-2xl bg-teal-400 p-4 text-primary-content border-8 border-purple-500" style="--value:87;" role="progressbar">90%</div>
+        <h1 class="text-center  mt-2 font-bold">Senior Player</h1>
+    <p class="text-center text-sm">Amet consectetur. Condimentum dignissim adipiscing . </p>
+      </div>
+      <div class="contanier ">
+        <div class="radial-progress font-bold text-2xl bg-purple-500 p-4 text-primary-content border-8 border-green-500" style="--value:87;" role="progressbar ">80%</div>
+        <h1 class="text-center  mt-2 font-bold">Prayer Facility</h1>
+    <p class="text-center text-sm">Amet consectetur. Condimentum dignissim adipiscing . </p>
+      </div>
+    </div>
+
+    <div class="contanier bg-red-50 mx-auto w-[1170px] h-[200px] mt-6 alin-center m-auto rounded-box">
+      <h1 class="text-center text-4xl mt-24 font-bold pt-12">Program Sections</h1>
+      <p class="text-center p-4 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+<div class="contanier justify-self-center w-[1170px] h-[550px] mt-16 alin-center m-auto rounded-box">
+
+<div class=" flex justify-between mb-[20px]">
+ <div><img src="Images/2.png" /> 
+
+  <div class="contanier flex justify-end  shadow shadow">
+    <div class="contanier h-24 w-/3 mx-auto  lg:-translate-y-36 rounded-box absolute justify-end mr-12 text-center drop-shadow-lg" >
+      <h1 class="text-white text-2xl font-bold m-2">Junior Program</h1>
+      <p class="text-white text-sm m-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in. </p>
+      <a class="btn bg-orange-500 text-white">Register Now!</a>
+    </div>
+    </div>
+</div>
+ 
+   <div class=""><img src="Images/3.png " /> 
+    <div class="contanier flex justify-end alin-center shadow shadow">
+      <div class="contanier h-24 w-1/3 mx-auto bg-orange-500 lg:-translate-y-36 rounded-box absolute justify-end mr-12 text-center drop-shadow-lg" >
+        <h1 class="text-white text-2xl font-bold m-2">Meet all the heroes from the field</h1>
+        <p class="text-white text-sm m-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
+      </div>
+  
+  </div>
+  
+  
+</div>
+
+<div>
+  <img src="Images/4.png" />
+  <div class="contanier flex justify-start alin-center shadow shadow">
+    <div class="contanier h-24 w-1/3 mx-auto bg-orange-500 lg:-translate-y-36 rounded-box absolute justify-end mr-12 text-center drop-shadow-lg" >
+      <h1 class="text-white text-2xl font-bold m-2">Meet all the heroes from the field</h1>
+      <p class="text-white text-sm m-2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
+    </div>
+</div>
+</div>
+
+
+</min>
+
+<footer>
+
+
+</footer>
+</body>
+</html>
